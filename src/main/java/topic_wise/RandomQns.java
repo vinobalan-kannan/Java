@@ -1,5 +1,8 @@
 package topic_wise;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class RandomQns {
 
 	public static void main(String[] args) {
@@ -10,8 +13,7 @@ public class RandomQns {
 		// program should display "element not found
 
 		int[] array = { 1, 3, 3, 4, 5, 6, 6, 7, 8, 9, 9 };
-	
-	
+
 		int uservalue = 9;
 
 		StringBuilder sb = new StringBuilder();
@@ -20,18 +22,44 @@ public class RandomQns {
 
 		for (int i = 0; i < array.length; i++) {
 
-			if (array[i] == uservalue) 
-			{
+			if (array[i] == uservalue) {
 				sb.append(i).append(" ");
 				isThere = true;
 			}
-		
+
 		}
-		
+
 		if (isThere == true) {
 			System.out.println("The indices are " + sb);
 		} else {
 			System.out.println("no element present");
 		}
-	}
+		
+		
+		
+
+		// Print the second smallest and second largest element from an array. java
+		int[] arr = { 1, 7, 3, 4, 5, 6, 7, 8, 3 };
+
+		int[] unique = Arrays.stream(arr).distinct().sorted().toArray();
+
+		System.out.println("The 2nd samllest number: " + unique[1]);
+
+		System.out.println("The 2nd largest number: " + unique[unique.length - 2]);
+		
+		
+		//Find the Sum of Digits in a Number 
+		
+		int n=123;
+		
+
+		
+		List<Integer> conv =Arrays.asList(n); 
+		
+		for(int m:conv)
+		{
+		System.out.println(m);	
+		}
+}
+	
 }

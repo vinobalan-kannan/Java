@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<!-- Source:
-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		https://mvnr epository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -26,11 +26,7 @@
 			<artifactId>guava</artifactId>
 			<version>33.2.1-jre</version>
 		</dependency>
-		<dependency>
-			<groupId>intro</groupId>
-			<artifactId>selenium</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>

@@ -11,9 +11,13 @@ public class ReverseAString {
 			finall += a.charAt(i);
 
 		}
-		System.out.print(finall);
+		System.out.println(finall);
 
+		
+		StringBuilder s=new StringBuilder(a);
+		System.out.println(s.reverse());
 	}
 
+	
 	
 }
