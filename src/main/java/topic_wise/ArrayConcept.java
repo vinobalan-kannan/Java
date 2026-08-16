@@ -11,7 +11,7 @@ public class ArrayConcept {
 		//Defining Arrays
 		int[] i = new int[5];
 		i[0] = 1;
-		i[1] = 2;
+		i[1] = 3;
 		
 		String[] s= {"Aim High" ,"Be Stoic"};
 		System.out.println(s[0]);
