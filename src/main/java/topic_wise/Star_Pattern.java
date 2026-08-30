@@ -1,37 +1,21 @@
-package selenium_concepts;
+package topic_wise;
 
-import java.util.List;
+public class Star_Pattern {
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
-
-public class summa {
-
-	public static void main(String af[]) throws InterruptedException {
-
-		String s = "Be consistent";
-
-//		for(int i=a.length()-1; i>=0;i--)
-//		{
-//			System.out.print(a.charAt(i));
-//		}
-
-//		StringBuilder s =new StringBuilder();
-//		s.append(false);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int rows = 5; // You can change this value to alter the pyramid height
 
+		//from left to ri8
 		for (int i = 1; i <= rows; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-
+		
+		//from ri8 to left
+		//***in last loop "*" --> " *" gives pyramid shape
 		for (int a = 1; a <= rows; a++) {
 			for (int b = 1; b <= rows - a; b++) {
 				System.out.print(" ");
@@ -41,11 +25,11 @@ public class summa {
 			}
 			System.out.println();
 		}
-
+		
+		
+		//Pyramid
 		// Outer loop handles the number of rows
-		for (
-
-				int i = 1; i <= rows; i++) {
+		for (int i = 1; i <= rows; i++) {
 
 			// First inner loop prints the leading spaces for center-alignment
 			for (int j = 1; j <= rows - i; j++) {
@@ -62,4 +46,5 @@ public class summa {
 		}
 
 	}
+
 }

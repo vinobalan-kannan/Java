@@ -8,12 +8,12 @@ public class SplitAString {
 
 	public static void main(String[] args) {
 
-		// number of words in a string
-//		String s = "Be Consistent";
-//
-//		String[] splitter = s.split(" ");
-//
-//		System.out.println(splitter.length);
+		 //number of words in a string
+		String s = "Be Consistent";
+
+		String[] splitter = s.split(" ");
+
+		System.out.println(splitter.length);
 
 		// count of char in string
 		String m = "This too shall pass";
