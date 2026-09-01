@@ -1,6 +1,6 @@
 package topic_wise;
 
-public class Star_Pattern {
+public class StarPattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
