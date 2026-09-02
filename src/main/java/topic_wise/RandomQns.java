@@ -1,7 +1,6 @@
 package topic_wise;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 public class RandomQns {
 
@@ -46,22 +45,32 @@ public class RandomQns {
 //		System.out.println("The 2nd samllest number: " + unique[1]);
 //
 //		System.out.println("The 2nd largest number: " + unique[unique.length - 2]);
-		
-		
-		//Find the Sum of Digits in a Number 
-		
-		int n=123;	
-		String g=Integer.toString(n);
-		int a=0;
-		//System.err.println(g.length());
-		for(int i=0; i<g.length();i++)
-		{
-			a=a+Character.getNumericValue(g.charAt(i));
-		
-			
+
+		// Find the Sum of Digits in a Number
+
+//		int n = 123;
+//		String g = Integer.toString(n);
+//		int a = 0;
+//		// System.err.println(g.length());
+//		for (int i = 0; i < g.length(); i++) {
+//			a = a + Character.getNumericValue(g.charAt(i));
+//
+//		}
+//		System.out.println(a);
+
+		// This Java program converts only the characters present at even index
+		// positions (0, 2, 4, ...)
+		// into uppercase while keeping the characters at odd index positions unchanged
+		String s = "belief";
+
+		char[] res = s.toCharArray();
+		for (int i = 0; i < res.length; i = i + 2) {
+
+			res[i] = Character.toUpperCase(res[i]);
+
 		}
-		System.out.println(a);
-		
-}
-	
+
+		System.out.print(res);
+	}
+
 }
