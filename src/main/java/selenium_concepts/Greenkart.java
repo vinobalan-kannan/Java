@@ -43,8 +43,7 @@ public class Greenkart {
 				
 					System.out.println(finalName);
 	
-					driver.findElements(By.cssSelector(".product-action > button")).get(i).click();
-				
+					driver.findElements(By.cssSelector(".product-action > button")).get(i).click();				
 				}
 		}
 		driver.findElement(By.cssSelector(".cart-icon > img")).click();

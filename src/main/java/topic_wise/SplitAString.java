@@ -1,9 +1,5 @@
 package topic_wise;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class SplitAString {
 
 	public static void main(String[] args) {

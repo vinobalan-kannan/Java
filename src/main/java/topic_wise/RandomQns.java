@@ -1,6 +1,6 @@
 package topic_wise;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class RandomQns {
 
@@ -61,7 +61,9 @@ public class RandomQns {
 		// This Java program converts only the characters present at even index
 		// positions (0, 2, 4, ...)
 		// into uppercase while keeping the characters at odd index positions unchanged
+		
 		String s = "belief";
+		
 
 		char[] res = s.toCharArray();
 		for (int i = 0; i < res.length; i = i + 2) {
