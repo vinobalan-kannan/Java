@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-11T18:54:06 IST" name="Default suite" finished-at="2026-09-11T18:54:07 IST" duration-ms="993">
+    <groups>
+    </groups>
+    <test started-at="2026-09-11T18:54:06 IST" name="Default test" finished-at="2026-09-11T18:54:07 IST" duration-ms="993">
+      <class name="selenium_concepts.Data_Driven">
+        <test-method signature="testCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium_concepts.Data_Driven@5bf0d49]" started-at="2026-09-11T18:54:07 IST" name="testCase" data-provider="TestData" finished-at="2026-09-11T18:54:07 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vino123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vino@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium_concepts.Data_Driven@5bf0d49]" started-at="2026-09-11T18:54:07 IST" name="testCase" data-provider="TestData" finished-at="2026-09-11T18:54:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[steve123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[steve@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium_concepts.Data_Driven@5bf0d49]" started-at="2026-09-11T18:54:07 IST" name="testCase" data-provider="TestData" finished-at="2026-09-11T18:54:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rogers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rogers123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rogers@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- selenium_concepts.Data_Driven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
