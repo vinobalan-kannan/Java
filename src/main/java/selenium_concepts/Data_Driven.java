@@ -20,7 +20,6 @@ public class Data_Driven {
 			System.out.println(userName +" , " + password +" , " + mailID);
 		}
 	
-	
 		@DataProvider(name="TestData")
 		public Object[][] testdata() throws IOException
 		{
@@ -28,12 +27,10 @@ public class Data_Driven {
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet=workbook.getSheetAt(0);
-		//System.out.println("all good");
 		
 		DataFormatter formatter=new DataFormatter();
 		
 		int rowCount=sheet.getPhysicalNumberOfRows();
-		//System.out.println(sheet.getLastRowNum());
 		
 		XSSFRow row=sheet.getRow(0);
 		
